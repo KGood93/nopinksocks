@@ -1,0 +1,32 @@
+.Header {
+    height: 60px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 155, 151);
+  }
+  
+  .Header h1 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+  }
+  
+  .Header h1 a {
+    text-decoration: none;
+  }
+  
+  .Header a {
+    color: rgb(48, 47, 48);
+  }
+  
+  @media screen and (min-width: 450px) {
+    .Header {
+      align-items: baseline;
+    }
+    .Header h1 {
+      font-size: 22pt;
+    }
+  }
