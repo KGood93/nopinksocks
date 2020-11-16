@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Route} from 'react-router-dom'
 import Header from './Components/Header/Header'
-import Help from './Components/Help/Help'
+import Help from './Components/HelpPage/Help/Help'
 import LaundrySymbols from './Components/LaundrySymbols/LaundrySymbols'
 import Stains from './Components/Stains/Stains'
 import './App.css'
