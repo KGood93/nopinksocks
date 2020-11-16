@@ -4,10 +4,11 @@ import Header from './Components/Header/Header'
 import Help from './Components/HelpPage/Help/Help'
 import LaundrySymbols from './Components/LaundrySymbols/LaundrySymbols'
 import Stains from './Components/Stains/Stains'
+import Navbar from './Components/Navigation/Navbar/Navbar'
 import './App.css'
 
 class App extends Component {
-  rendreNavRoutes() {
+  renderNavRoutes() {
     return (
       <>
         {['/', '/laundrysymbols'].map(path => (
@@ -43,6 +44,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <Header/>
+          <Navbar/>
         </header>
       </div>
     )
