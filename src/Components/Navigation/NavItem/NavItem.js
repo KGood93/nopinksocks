@@ -1,17 +1,17 @@
 export const NavItem = [
     {
-        title: 'Home',
-        url: 'a',
+        title: 'Laundry Symbols',
+        url: 'laundrysymbols',
         cName: 'nav-link'
     },
     {
-        title: 'Services',
-        url: 'a',
+        title: 'Help',
+        url: 'help',
         cName: 'nav-link'
     },
     {
-        title: 'Products',
-        url: 'a',
+        title: 'Stains',
+        url: 'stains',
         cName: 'nav-link'
     },
     {
