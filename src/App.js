@@ -5,13 +5,14 @@ import Help from './Components/HelpPage/Help/Help'
 import LaundrySymbols from './Components/LaundrySymbols/LaundrySymbols'
 import Stains from './Components/Stains/Stains'
 import Navbar from './Components/Navigation/Navbar/Navbar'
+import Welcome from './Components/Welcome/Welcome'
 import './App.css'
 
 class App extends Component {
   renderNavRoutes() {
     return (
       <>
-        {['/', '/laundrysymbols'].map(path => (
+        {['/'].map(path => (
           <Route 
             exact
             key={path}
@@ -45,6 +46,7 @@ class App extends Component {
         <header className="App-header">
           <Header/>
           <Navbar/>
+          <Welcome/>
         </header>
       </div>
     )

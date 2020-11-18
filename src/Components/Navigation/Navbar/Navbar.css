@@ -1,6 +1,6 @@
 .NavbarItem {
-    background: #ffc0cb;
-    height: 80px;
+    background-color: rgb(79, 89, 114);
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
 }
 
 .nav-link{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 0.5rem, 1rem;
 }
